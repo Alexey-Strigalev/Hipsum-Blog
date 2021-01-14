@@ -1,0 +1,37 @@
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+
+    a {
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.28px;
+
+        &:hover {
+            color: #e84c50;
+        }
+    }
+}
+
+.pagination__current {
+    display: flex;
+
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.36px;
+
+    &>*:not(:last-child) {
+        margin-right: 20px;
+    }
+}
+
+.pagination__current-active {
+    color: #e84c50;
+}
+
+a.pagination__current-link {
+    font-size: 18px;
+}

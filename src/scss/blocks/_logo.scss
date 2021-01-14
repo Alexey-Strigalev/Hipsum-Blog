@@ -1,0 +1,15 @@
+.header__logo {
+    a{
+        transition: 0.3s linear;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}
+
+.logo {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 38px;
+    font-weight: 900;
+}

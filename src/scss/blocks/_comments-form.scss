@@ -1,0 +1,49 @@
+.comments-form-row {
+    margin-bottom: 80px;
+
+    h2{
+        text-align: start;
+    }
+}
+
+.form-item {
+    margin-bottom: 22px;
+}
+
+.form-field {
+    width: 100%;
+    padding: 20px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background-color: #e9eff2;
+    height: 52px;
+
+    font-size: 16px;
+    font-weight: 500;
+    color: #4e5e66;
+    line-height: 1.75;  
+
+    &::placeholder {
+        font-weight: 400;
+        color: #4e5e6680;
+    }
+
+    &:active, &:focus {
+        border: 2px solid #95bacc;
+    }
+}
+
+textarea.form-field {
+    height: 194px;
+}
+
+.inputs-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-btn button {
+    padding: 0 40px;
+    font-size: 16px;
+    line-height: 52px;
+}

@@ -1,0 +1,9 @@
+mixin comment(name, img = null)
+    .comment
+        .user-data-row
+            if img
+                .user-foto
+                    img(src="./img/users/" + img, alt= name)
+            .user-name #{name}
+        .comment-text
+            block
