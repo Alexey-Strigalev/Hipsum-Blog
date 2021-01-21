@@ -6,3 +6,5 @@
 * Создание структуры с помощью Bootstrap
 * Оптимизация верски через секции
 * Использование шаблонов
+
+Демо: https://alexey-strigalev.github.io/Hipsum-Blog/
